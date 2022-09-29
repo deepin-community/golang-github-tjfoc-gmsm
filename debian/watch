@@ -1,0 +1,4 @@
+version=3
+opts=repacksuffix=+ds,\
+dversionmangle=s/\+ds\d*$// \
+  https://github.com/tjfoc/gmsm/tags .*/v?(\d\S*)\.tar\.gz

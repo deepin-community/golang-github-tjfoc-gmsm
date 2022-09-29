@@ -1,0 +1,27 @@
+Source: golang-github-tjfoc-gmsm
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-golang,
+ golang-any,
+ golang-golang-x-crypto-dev
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/tjfoc/gmsm
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-tjfoc-gmsm
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-tjfoc-gmsm.git
+XS-Go-Import-Path: github.com/tjfoc/gmsm
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-tjfoc-gmsm-dev
+Architecture: all
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ golang-golang-x-crypto-dev
+Description: GM SM2/3/4 library based for Golang
+ package sm2, sm3 and sm4 provide GM SM2/3/4 implementations
+ for Golang.

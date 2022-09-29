@@ -1,0 +1,94 @@
+golang-github-tjfoc-gmsm (1.4.0-1+eagle) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Go Packaging Team <team+pkg-go@tracker.debian.org>  Thu, 12 May 2022 11:19:05 +0800
+
+golang-github-tjfoc-gmsm (1.4.0-1+eagle) unstable; urgency=medium
+
+  * update
+
+ -- Debian Go Packaging Team <team+pkg-go@tracker.debian.org>  Tue, 09 Mar 2021 18:08:39 +0800
+
+golang-github-tjfoc-gmsm (1.3.0+ds-2) unstable; urgency=medium
+
+  * update v1.4.0, sync github-golang-tjfoc-gmsm for sm2 aglo
+
+ -- Uos hushijia <hushijia@uniontech.com>  Tue, 12 Jan 2021 17:51:34 +0800
+
+golang-github-tjfoc-gmsm (1.3.0+ds-2) unstable; urgency=medium
+
+  * Set upstream metadata fields: Bug-Submit.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Tue, 28 Apr 2020 21:43:56 +0000
+
+golang-github-tjfoc-gmsm (1.3.0+ds-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release: v1.3.0
+  * debian/control:
+    - Bump debhelper version to 12.
+    - Bump policy version to 4.5.0
+  * Add debian/upstream/metadata
+  * debian/patches:
+    - Remove upstreamed patches.
+
+ -- Roger Shimizu <rosh@debian.org>  Sat, 25 Apr 2020 03:40:12 +0900
+
+golang-github-tjfoc-gmsm (1.2+ds-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release: v1.2
+  * debian/copyright:
+    - Add .gitignore to "Files-Excluded".
+  * debian/watch:
+    - Update to adapt +ds source format.
+  * debian/patches: Backport two commits from upstream.
+    - [f915c2c] Change log for v1.2
+    - [fb33d25] Fix r!=0 and r+k!=n when signing.
+
+ -- Roger Shimizu <rogershimizu@gmail.com>  Fri, 23 Aug 2019 01:22:31 +0900
+
+golang-github-tjfoc-gmsm (1.1-6) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Michael Stapelberg ]
+  * Add debian/gitlab-ci.yml (using salsa.debian.org/go-team/ci/cmd/ci).
+
+ -- Roger Shimizu <rogershimizu@gmail.com>  Sun, 26 Aug 2018 14:52:39 +0900
+
+golang-github-tjfoc-gmsm (1.1-5) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:15:12 -0500
+
+golang-github-tjfoc-gmsm (1.1-4) unstable; urgency=medium
+
+  [ Chris Lamb ]
+  * Dont ship .pem files (Closes: #885695)
+
+  [ Alexandre Viau ]
+  * Prepare upload.
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 26 Jan 2018 14:15:25 -0500
+
+golang-github-tjfoc-gmsm (1.1-3) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 15:51:37 -0500
+
+golang-github-tjfoc-gmsm (1.1-2) unstable; urgency=medium
+
+  * Move to salsa.debian.org
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 29 Dec 2017 23:29:55 -0500
+
+golang-github-tjfoc-gmsm (1.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #884948)
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 21 Dec 2017 16:23:33 -0500
